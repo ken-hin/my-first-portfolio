@@ -275,10 +275,16 @@ section {
   border-radius: 2rem;
 }
 
-.arrow {
+.down-arrow {
   position: absolute;
   right: -5rem;
   bottom: 2.5rem
+}
+
+.up-arrow {
+  position: absolute;
+  right: -5rem;
+  top: 2.5rem;
 }
 
 .details-container {
