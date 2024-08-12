@@ -275,6 +275,11 @@ section {
   border-radius: 2rem;
 }
 
+.down-arrow-landing {
+  position: absolute;
+  right: 5rem;
+  bottom: 2.5rem
+}
 .down-arrow {
   position: absolute;
   right: -5rem;
