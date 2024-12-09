@@ -10,9 +10,13 @@
   #projects {
     height: fit-content;
   }
+
 }
 
 @media screen and (max-width: 1200px) {
+  .logo {
+    color: black;
+  }
   #desktop-nav {
     display: none;
   }
@@ -41,6 +45,9 @@
   }
   .about-containers {
     margin-top: 0;
+  }
+  .text-container {
+    height: 100%;
   }
 }
 
@@ -88,7 +95,7 @@
   }
   .section__pic-container {
     width: auto;
-    height: 46vw;
+    height: 50vw;
     justify-content: center;
     margin-bottom: 0.25rem;
   }
@@ -120,5 +127,8 @@
   .section__text__p1 {
     text-align: center;
     margin-bottom: -0.75rem;
+  }
+  .text-container {
+    height: 100%;
   }
 }
